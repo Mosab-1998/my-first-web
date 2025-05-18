@@ -1,0 +1,120 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f5f9;
+  color: #333;
+}
+
+/* Navigation */
+.navbar-custom {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #ffeb3b !important;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #00bcd4, #2196f3);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Description Section */
+.description {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.description img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards for Info */
+.info-card {
+  background-color: white;
+  border-left: 5px solid #00bcd4;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card i {
+  font-size: 2rem;
+  color: #00bcd4;
+  margin-right: 10px;
+}
+
+/* Table Style */
+.course-table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.course-table th {
+  background-color: #e3f2fd;
+}
+
+/* Registration Form */
+.registration-form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.btn-custom {
+  background-color: #00bcd4;
+  color: white;
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #0097a7;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #00bcd4;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .row img {
+    margin-bottom: 20px;
+  }
+}
